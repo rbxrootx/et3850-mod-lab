@@ -40,3 +40,7 @@ The modified package did not have a valid Epson ECDSA signature. We rebuilt its 
 - Prepare a vendor disclosure for the firmware acceptance issue.
 
 Read the [project story](docs/story.md) for the full narrative. This is an independent owner research project and is not affiliated with Epson.
+
+## Retro GUI
+
+Run `python et3850_gui.py` for the blue-wave Mod Lab dashboard. It can probe the printer, read live root and Wi-Fi status, and run a command on an already-modded device using a password file you choose. The GUI does not install firmware.
